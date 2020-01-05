@@ -313,7 +313,6 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
-  font-weight: 600;
 }
 #fh5co-counter .overlay,
 #fh5co-event .overlay {
@@ -359,6 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
+  font-weight: bold;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
@@ -366,11 +366,14 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.event-details {
+  font-weight: bold;
+}
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
